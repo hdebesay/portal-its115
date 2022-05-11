@@ -15,14 +15,14 @@ form>div {
 		
 /* writes to small text above reCAPTCHA upon failure */
 .dateFeedback{
-    font-style:italic;
+    font-style: italic;
     font-size:70%;
     font-weight:bold;
     color:#f00;
 }
 
 input:required {
-      border: 1px solid red;
+      border: 1px solid #fe0b0b;
 }
 
 input:optional, textarea:optional {

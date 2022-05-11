@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(255, 162, 0);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.95em;
-    line-height: 1.5em;
+    line-height: 3em;
 }
 
 ::selection {
@@ -20,6 +20,12 @@ h1 {
     background: #fff;
     line-height: 2.5em;
 }
+
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+  }
+
 
 main.wrapper {
     background-color: white;
