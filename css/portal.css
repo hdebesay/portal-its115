@@ -1,10 +1,9 @@
 /* Global rules */
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Shadows+Into+Light&display=swap');
 html {
-    background-color: rgb(255, 162, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3B5998;
     font-size: 0.95em;
     line-height: 3em;
 }
@@ -15,20 +14,23 @@ html {
 }
 
 h1 {
-    font-weight: normal;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    width: 50%;
     margin: auto;
-    background: #fff;
+    background: #F0F2F5;
     line-height: 2.5em;
+    text-align: center;
 }
 
 body {
     font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-size: 36px;
   }
 
 
 main.wrapper {
-    background-color: white;
+    background-color: #F0F2F5;
     overflow: auto;
 }
 
@@ -37,7 +39,7 @@ p {
 }
 
 h2,h3 {
-    font-weight: normal;
+    font-weight: bold;
     margin-left: 1em;
     line-height: 1em;
 }
@@ -97,6 +99,7 @@ footer {
         width: 50%;
         float: right;
         margin-left: 1em;
+        border: 5px white solid;
     }
 
 }
